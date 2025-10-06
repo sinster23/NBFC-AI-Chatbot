@@ -1,8 +1,6 @@
 import fs from "fs";
 import path from "path";
-
-const filePath = path.join(process.cwd(), "data", "customers.json");
-const customers = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+import customers from "../data/customers.json" assert { type: "json" };
 
 export async function runUnderwritingAgent(message) {
   const nameMatch = message.match(/[A-Z][a-z]+\s[A-Z][a-z]+/);
