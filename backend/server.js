@@ -11,6 +11,12 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use("/api", routes);
 
+//Health check
+// Health check endpoint
+app.get("/", (req, res) => {
+  res.json({ message: "Chatbot API is healthy!" });
+});
+
 // Error handling middleware
 app.use((error, req, res, next) => {
   console.error('Server error:', error);
