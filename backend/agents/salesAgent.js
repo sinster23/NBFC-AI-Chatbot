@@ -2,9 +2,8 @@ import fs from "fs";
 import path from "path";
 import { model } from "../utils/geminiClient.js";
 
-const customers = JSON.parse(
-  fs.readFileSync(path.resolve("data/customers.json"), "utf-8")
-);
+const filePath = path.join(process.cwd(), "data", "customers.json");
+const customers = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
 export async function runSalesAgent(message) {
   // Pick a random customer for now
