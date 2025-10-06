@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Ravi Kumar",
+    "age": 32,
+    "city": "Delhi",
+    "creditScore": 780,
+    "preApprovedLimit": 300000,
+    "phone": "9876543210",
+    "address": "New Delhi",
+    "aadhar": "123456789012",
+    "pan": "ABCDE1234F"
+  },
+  {
+    "name": "Asha Sharma",
+    "age": 29,
+    "city": "Mumbai",
+    "creditScore": 720,
+    "preApprovedLimit": 500000,
+    "phone": "9123456780",
+    "address": "Mumbai",
+    "aadhar": "678901234567",
+    "pan": "PQRSX6789Z"
+  },
+  {
+    "name": "Vikram Singh",
+    "age": 35,
+    "city": "Kolkata",
+    "creditScore": 650,
+    "preApprovedLimit": 200000,
+    "phone": "9832109876",
+    "address": "Kolkata",
+    "aadhar": "987654321098",
+    "pan": "LMNOP2345H"
+  },
+  {
+    "name": "Priya Das",
+    "age": 31,
+    "city": "Chennai",
+    "creditScore": 760,
+    "preApprovedLimit": 400000,
+    "phone": "9845123456",
+    "address": "Chennai",
+    "aadhar": "123498765432",
+    "pan": "ASDFG4567J"
+  },
+  {
+    "name": "Rohit Mehta",
+    "age": 28,
+    "city": "Pune",
+    "creditScore": 710,
+    "preApprovedLimit": 350000,
+    "phone": "9876501234",
+    "address": "Pune",
+    "aadhar": "456789123456",
+    "pan": "ZXCVB6789N"
+  },
+  {
+    "name": "Anjali Gupta",
+    "age": 30,
+    "city": "Hyderabad",
+    "creditScore": 740,
+    "preApprovedLimit": 380000,
+    "phone": "9876704321",
+    "address": "Hyderabad",
+    "aadhar": "789012345678",
+    "pan": "QWERT1234L"
+  },
+  {
+    "name": "Deepak Verma",
+    "age": 36,
+    "city": "Bangalore",
+    "creditScore": 690,
+    "preApprovedLimit": 220000,
+    "phone": "9998887776",
+    "address": "Bangalore",
+    "aadhar": "345678901234",
+    "pan": "TYUIO3456P"
+  },
+  {
+    "name": "Sneha Iyer",
+    "age": 27,
+    "city": "Ahmedabad",
+    "creditScore": 760,
+    "preApprovedLimit": 450000,
+    "phone": "9877776665",
+    "address": "Ahmedabad",
+    "aadhar": "567890123456",
+    "pan": "BNMAS4567T"
+  },
+  {
+    "name": "Amit Roy",
+    "age": 34,
+    "city": "Lucknow",
+    "creditScore": 710,
+    "preApprovedLimit": 320000,
+    "phone": "9812345678",
+    "address": "Lucknow",
+    "aadhar": "234567890123",
+    "pan": "HJKLP2345R"
+  },
+  {
+    "name": "Kiran Patil",
+    "age": 33,
+    "city": "Nagpur",
+    "creditScore": 680,
+    "preApprovedLimit": 250000,
+    "phone": "9823456789",
+    "address": "Nagpur",
+    "aadhar": "901234567890",
+    "pan": "VBNMC6789S"
+  }
+]
