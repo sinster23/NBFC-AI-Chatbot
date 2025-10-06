@@ -1,7 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { model } from "../utils/geminiClient.js";
-import customers from "../data/customers.json" assert { type: "json" };
+
+const customers = JSON.parse(
+  fs.readFileSync(path.resolve("data/customers.json"), "utf-8")
+);
 
 export async function runSalesAgent(message) {
   // Pick a random customer for now

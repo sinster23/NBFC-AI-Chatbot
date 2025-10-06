@@ -1,6 +1,9 @@
 import fs from "fs";
 import path from "path";
-import customers from "../data/customers.json" assert { type: "json" };
+
+const customers = JSON.parse(
+  fs.readFileSync(path.resolve("data/customers.json"), "utf-8")
+);
 
 export async function runUnderwritingAgent(message) {
   const nameMatch = message.match(/[A-Z][a-z]+\s[A-Z][a-z]+/);
